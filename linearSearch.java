@@ -22,10 +22,10 @@ O(n!) -> factorial time
    Does not need to sorted
    Usefull for the data structures that do not have random access(linked List)
 */ 
-public class linearSearch{
+public class LinearSearch{
     public static void main(String[] args) {
         int[] array = {91, 12, 3, 8, 37 , 7, 33, 23, 89 , 88 , 77};
-        int index = linearSearch(array, 77);
+        int index = linearSearch(array, 7);
 
         if(index != -1)
         {
@@ -49,3 +49,4 @@ public class linearSearch{
     }
     
 }
+

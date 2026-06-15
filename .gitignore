@@ -1,0 +1,75 @@
+# ======================
+# Java compiled files
+# ======================
+*.class
+
+# ======================
+# Build directories
+# ======================
+target/
+build/
+out/
+
+# ======================
+# Java package files
+# ======================
+*.jar
+*.war
+*.ear
+
+# ======================
+# IDE files
+# ======================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# OS files (macOS)
+# ======================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# ======================
+# Windows files
+# ======================
+Thumbs.db
+Desktop.ini
+
+# ======================
+# Temporary files
+# ======================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ======================
+# Java documentation
+# ======================
+javadoc/
+
+# ======================
+# Environment/config files
+# ======================
+.env

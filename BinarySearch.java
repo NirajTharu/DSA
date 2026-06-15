@@ -10,7 +10,7 @@ public class BinarySearch {
         {
             array[i] = i;
         }
-        int index = BinarySearch(array,target);
+        int index = binarySearch(array,target);
         if(index == -1)
         {
             System.out.println("Target NOT Found.");
@@ -19,7 +19,7 @@ public class BinarySearch {
             System.out.println("Element found at: " + index);
         }
     }
-    private static int BinarySearch(int[] array, int target)
+    private static int binarySearch(int[] array, int target)
     {
         int low = 0;
         int high = array.length - 1;

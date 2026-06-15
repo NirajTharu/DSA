@@ -37,7 +37,7 @@ public class BinarySearch {
                 high = middle - 1; 
             }
             else{
-                return middle; // Traget Found
+                return middle; // Target Found
             }
         }
         return -1; // Traget Not Found

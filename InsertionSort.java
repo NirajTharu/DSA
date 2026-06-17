@@ -11,7 +11,7 @@ public class InsertionSort {
         insertionSort(array);
         for(int i : array)
         {
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
     private static void insertionSort(int array[])

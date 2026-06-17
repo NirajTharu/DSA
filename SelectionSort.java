@@ -8,7 +8,7 @@ public class SelectionSort {
         selectionSort(array);
         for(int i : array)
         {
-            System.out.print(i);
+            System.out.print(i + " ");
         }
     }
     private static void selectionSort(int []array)

@@ -19,7 +19,9 @@ public class DepthFirstSearch {
         graph.addEdge(4,2);
 
         graph.print();
-
-        graph.depthFirstSearch(0);
+        System.out.println("""
+                ======================
+                """);
+        graph.depthFirstSearch(2);
     }
 }
